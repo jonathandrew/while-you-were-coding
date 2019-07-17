@@ -3,7 +3,13 @@ console.log('Challenge #1');
 // Console out the numbers from 1-20, but only if they're divisible by 3.
 
 // Use `if` and a modulus operation.
-
+let number = 0
+while (number <= 20){
+    if (number % 3 === 0){
+        console.log(number)
+    }
+    number = number + 1
+}
 
 console.log('Challenge #2');
 
