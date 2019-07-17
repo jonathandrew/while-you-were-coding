@@ -3,19 +3,51 @@ console.log('Challenge #1');
 // Console out the numbers from 1-20, but only if they're divisible by 3.
 
 // Use `if` and a modulus operation.
-let number = 0
+const challenge1 = "solution for Challenge 1"
+const challenge2 = "solution for Challenge 2"
+
+let number = 1
 while (number <= 20){
     if (number % 3 === 0){
         console.log(number)
     }
+    if (number >=20){
+        console.log(challenge1)
+    }
     number = number + 1
 }
-
+number = number - 20
 console.log('Challenge #2');
 
 // Same problem as #1, but no `if`s, `mods`, or `but`s (and no, that last one is
 // not a thing). If you did it right, you should run the loop 6 times with 1
 // console log per loop. That's called... a clue!
+number = 3
+while (number <=3){
+    console.log(number)
+    number = number + 3
+}
+while (number <=6){
+    console.log(number)
+    number = number + 3
+}
+while (number <=9){
+    console.log(number)
+    number = number + 3
+}
+while (number <=12){
+    console.log(number)
+    number = number + 3
+}
+while (number <=15){
+    console.log(number)
+    number = number + 3
+}
+while (number <=18){
+    console.log(number)
+    number = number + 3
+}
+console.log(challenge2)
 
 
 console.log('Challenge #3');
