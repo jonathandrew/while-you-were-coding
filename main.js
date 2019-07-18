@@ -6,8 +6,13 @@ console.log('Challenge #1');
 const challenge1 = "solution for Challenge 1";
 const challenge2 = "solution for Challenge 2";
 const challenge3 = " solution for Challenge 3";
-const howdy = "Boy Howdy am I good at this!";
 const challenge4 = "solution for challenge 4";
+const challenge5 = "solution for challenge 5";
+const howdy = "Boy Howdy am I good at this!";
+const everyday = "And getting better everyday.";
+const best =" Am i the best?"
+const challenge6 = "solution for challenge 6"
+
 
 
 
@@ -91,13 +96,25 @@ console.log('Challenge #5');
 
 // For the string, 'And getting better every day.', starting with the second
 // character, print out every third character.
+number = 1
 
+while (number <= everyday.length){
+console.log( everyday[number])
+number = number + 3;
+}
+console.log (challenge5)
 
 console.log('Challenge #6');
 
 // For the string 'Am I the best?', console out the letters individually, AND
 // UPPERCASED.
+number = 0
 
+while(number <= best.length){
+    console.log(best[number].toUpperCase);
+    number = number + 1;
+}
+console.log (challenge6)
 
 console.log('Challenge #7');
 
