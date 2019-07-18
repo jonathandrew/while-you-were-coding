@@ -8,10 +8,11 @@ const challenge2 = "solution for Challenge 2";
 const challenge3 = " solution for Challenge 3";
 const challenge4 = "solution for challenge 4";
 const challenge5 = "solution for challenge 5";
+const challenge6 = "solution for challenge 6"
 const howdy = "Boy Howdy am I good at this!";
 const everyday = "And getting better everyday.";
 const best =" Am i the best?"
-const challenge6 = "solution for challenge 6"
+const woah="Woah! I am the best!"
 
 
 
@@ -111,7 +112,7 @@ console.log('Challenge #6');
 number = 0
 
 while(number <= best.length){
-    console.log(best[number].toUpperCase);
+    console.log(best[number].toUpperCase());
     number = number + 1;
 }
 console.log (challenge6)
@@ -120,6 +121,13 @@ console.log('Challenge #7');
 
 // For the string 'Whoa, I am the best!', console out the letters individually,
 // but also capitalize the letters in the third word.
+
+number = 0
+
+while( number <= woah.length){
+    console.log(woah[number])
+    number = number +1
+}
 
 
 console.log('Challenge #8');
