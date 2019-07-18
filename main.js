@@ -3,10 +3,15 @@ console.log('Challenge #1');
 // Console out the numbers from 1-20, but only if they're divisible by 3.
 
 // Use `if` and a modulus operation.
-const challenge1 = "solution for Challenge 1"
-const challenge2 = "solution for Challenge 2"
+const challenge1 = "solution for Challenge 1";
+const challenge2 = "solution for Challenge 2";
+const challenge3 = " solution for Challenge 3";
+const howdy = "Boy Howdy am I good at this!";
+const challenge4 = "solution for challenge 4";
 
-let number = 1
+
+
+let number = 1;
 while (number <= 20){
     if (number % 3 === 0){
         console.log(number)
@@ -16,7 +21,6 @@ while (number <= 20){
     }
     number = number + 1
 }
-number = number - 20
 console.log('Challenge #2');
 
 // Same problem as #1, but no `if`s, `mods`, or `but`s (and no, that last one is
@@ -59,12 +63,28 @@ console.log('Challenge #3');
 // (That's a reference that only Olds make, and only if they're SUPER CULTURED.)
 
 // (No extra credit will be given for wearing heels during this challenge.)
+number = 20;
+while(number > 1){
+    if (number % 3 === 0){
+        console.log(number)
+    }
+    number = number -1
+}
+ console.log(challenge3)
 
 
 console.log('Challenge #4');
 
 // For the string 'Boy howdy am I good at this!', console out the letters
 // individually.
+number = 0
+
+while(number <= howdy.length){
+    console.log(howdy[number]);
+    number = number + 1;
+}
+console.log (challenge4)
+
 
 
 console.log('Challenge #5');
