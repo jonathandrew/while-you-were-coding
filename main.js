@@ -11,9 +11,9 @@ const challenge5 = "solution for challenge 5";
 const challenge6 = "solution for challenge 6"
 const howdy = "Boy Howdy am I good at this!";
 const everyday = "And getting better everyday.";
-const best =" Am i the best?"
-const woah="Woah! I am the best!"
-
+const best ="Am I the best?";
+const woah ="Woah! I am the best!";
+const death ="i am become death, destroyer of worlds."
 
 
 
@@ -111,7 +111,7 @@ console.log('Challenge #6');
 // UPPERCASED.
 number = 0
 
-while(number <= best.length){
+while(number < best.length){
     console.log(best[number].toUpperCase());
     number = number + 1;
 }
@@ -123,19 +123,40 @@ console.log('Challenge #7');
 // but also capitalize the letters in the third word.
 
 number = 0
+let spaceCount = 0;
 
-while( number <= woah.length){
-    console.log(woah[number])
-    number = number +1
+while(number < woah.length){
+
+if(woah[number] === " ")
+{
+spaceCount = spaceCount + 1; 
+} 
+if (spaceCount === 2) 
+{
+console.log(woah[number].toUpperCase()); 
+}
+else
+{
+console.log(woah[number]); 
+}
+number = number+1; 
 }
 
 
 console.log('Challenge #8');
 
+number = 39
+
+while (number >= death.length){
+    console.log(number[death])
+    number = number -1
+}
 
 // For the string 'I am become death, destroyer of worlds.', console out the letters
 //  individually, but backwards. That is, the first console log should be
 // `.`, followed by `s`, followed by `d`, and so on.
+
+
 
 
 console.log('Challenge #9');
